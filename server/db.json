@@ -1,0 +1,107 @@
+{
+  "news": [
+    {
+      "id": 1,
+      "title": "Design Tools",
+      "image": "https://images.unsplash.com/photo-1648737154547-b0dfd281c51e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+      "author": "Victor Jansen",
+      "shortDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae dolores deserunt ea doloremque natus error, rerum quas odio quaerat nam ex commodi hic, suscipit in a veritatis pariatur minus consequuntur!",
+      "content": "A AXIS Design Tool ajuda a estimar a largura de banda e o armazenamentos necessários para seu projeto de vigilância. A estimativa é baseada em resolução de imagem, taxa de quatros, compactação, opções de gravação e o cenário da vigilância. / Cenários com muitos detalhes ou movimento exigirão mais largura de banda e armazenamento, comparados a cenários com menos detalhes ou movimento. Para começar, selecione uma câmera e um dos cenários de modelo pré-carregados, que permitem diferentes níveis de complexidade e movimento. Escolha o cenário que mais se aproxime de sua situação de vigilância. / Configurações de visualização e gravação são gerenciadas usando perfis. Escolha um dos perfis internos ou crie seu próprio perfil para que corresponda às necessidades de seu projeto. Para adicionar novos perfis ou editar configurações de perfil, clique no botão Profiles."
+    },
+    {
+      "id": 2,
+      "title": "Design System",
+      "image": "https://images.unsplash.com/photo-1648737119422-2680a7e39089?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=872&q=80",
+      "author": "Victor Jansen",
+      "shortDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae dolores deserunt ea doloremque natus error, rerum quas odio quaerat nam ex commodi hic, suscipit in a veritatis pariatur minus consequuntur!",
+      "content": "A AXIS Design Tool ajuda a estimar a largura de banda e o armazenamentos necessários para seu projeto de vigilância. A estimativa é baseada em resolução de imagem, taxa de quatros, compactação, opções de gravação e o cenário da vigilância. / Cenários com muitos detalhes ou movimento exigirão mais largura de banda e armazenamento, comparados a cenários com menos detalhes ou movimento. Para começar, selecione uma câmera e um dos cenários de modelo pré-carregados, que permitem diferentes níveis de complexidade e movimento. Escolha o cenário que mais se aproxime de sua situação de vigilância. / Configurações de visualização e gravação são gerenciadas usando perfis. Escolha um dos perfis internos ou crie seu próprio perfil para que corresponda às necessidades de seu projeto. Para adicionar novos perfis ou editar configurações de perfil, clique no botão Profiles."
+    },
+    {
+      "id": 3,
+      "title": "Angular JS",
+      "image": "https://images.unsplash.com/photo-1648737966274-79aa6f89c440?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+      "author": "Victor Jansen",
+      "shortDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae dolores deserunt ea doloremque natus error, rerum quas odio quaerat nam ex commodi hic, suscipit in a veritatis pariatur minus consequuntur!",
+      "content": "A AXIS Design Tool ajuda a estimar a largura de banda e o armazenamentos necessários para seu projeto de vigilância. A estimativa é baseada em resolução de imagem, taxa de quatros, compactação, opções de gravação e o cenário da vigilância. / Cenários com muitos detalhes ou movimento exigirão mais largura de banda e armazenamento, comparados a cenários com menos detalhes ou movimento. Para começar, selecione uma câmera e um dos cenários de modelo pré-carregados, que permitem diferentes níveis de complexidade e movimento. Escolha o cenário que mais se aproxime de sua situação de vigilância. / Configurações de visualização e gravação são gerenciadas usando perfis. Escolha um dos perfis internos ou crie seu próprio perfil para que corresponda às necessidades de seu projeto. Para adicionar novos perfis ou editar configurações de perfil, clique no botão Profiles."
+    },
+    {
+      "id": 4,
+      "title": "Design Tools",
+      "image": "https://images.unsplash.com/photo-1648737154547-b0dfd281c51e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+      "author": "Victor Jansen",
+      "shortDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae dolores deserunt ea doloremque natus error, rerum quas odio quaerat nam ex commodi hic, suscipit in a veritatis pariatur minus consequuntur!",
+      "content": "A AXIS Design Tool ajuda a estimar a largura de banda e o armazenamentos necessários para seu projeto de vigilância. A estimativa é baseada em resolução de imagem, taxa de quatros, compactação, opções de gravação e o cenário da vigilância. / Cenários com muitos detalhes ou movimento exigirão mais largura de banda e armazenamento, comparados a cenários com menos detalhes ou movimento. Para começar, selecione uma câmera e um dos cenários de modelo pré-carregados, que permitem diferentes níveis de complexidade e movimento. Escolha o cenário que mais se aproxime de sua situação de vigilância. / Configurações de visualização e gravação são gerenciadas usando perfis. Escolha um dos perfis internos ou crie seu próprio perfil para que corresponda às necessidades de seu projeto. Para adicionar novos perfis ou editar configurações de perfil, clique no botão Profiles."
+    },
+    {
+      "id": 5,
+      "title": "Design System",
+      "image": "https://images.unsplash.com/photo-1648737119422-2680a7e39089?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=872&q=80",
+      "author": "Victor Jansen",
+      "shortDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae dolores deserunt ea doloremque natus error, rerum quas odio quaerat nam ex commodi hic, suscipit in a veritatis pariatur minus consequuntur!",
+      "content": "A AXIS Design Tool ajuda a estimar a largura de banda e o armazenamentos necessários para seu projeto de vigilância. A estimativa é baseada em resolução de imagem, taxa de quatros, compactação, opções de gravação e o cenário da vigilância. / Cenários com muitos detalhes ou movimento exigirão mais largura de banda e armazenamento, comparados a cenários com menos detalhes ou movimento. Para começar, selecione uma câmera e um dos cenários de modelo pré-carregados, que permitem diferentes níveis de complexidade e movimento. Escolha o cenário que mais se aproxime de sua situação de vigilância. / Configurações de visualização e gravação são gerenciadas usando perfis. Escolha um dos perfis internos ou crie seu próprio perfil para que corresponda às necessidades de seu projeto. Para adicionar novos perfis ou editar configurações de perfil, clique no botão Profiles."
+    },
+    {
+      "id": 6,
+      "title": "Angular JS",
+      "image": "https://images.unsplash.com/photo-1648737966274-79aa6f89c440?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+      "author": "Victor Jansen",
+      "shortDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae dolores deserunt ea doloremque natus error, rerum quas odio quaerat nam ex commodi hic, suscipit in a veritatis pariatur minus consequuntur!",
+      "content": "A AXIS Design Tool ajuda a estimar a largura de banda e o armazenamentos necessários para seu projeto de vigilância. A estimativa é baseada em resolução de imagem, taxa de quatros, compactação, opções de gravação e o cenário da vigilância. / Cenários com muitos detalhes ou movimento exigirão mais largura de banda e armazenamento, comparados a cenários com menos detalhes ou movimento. Para começar, selecione uma câmera e um dos cenários de modelo pré-carregados, que permitem diferentes níveis de complexidade e movimento. Escolha o cenário que mais se aproxime de sua situação de vigilância. / Configurações de visualização e gravação são gerenciadas usando perfis. Escolha um dos perfis internos ou crie seu próprio perfil para que corresponda às necessidades de seu projeto. Para adicionar novos perfis ou editar configurações de perfil, clique no botão Profiles."
+    },
+    {
+      "id": 7,
+      "title": "Design Tools",
+      "image": "https://images.unsplash.com/photo-1648737154547-b0dfd281c51e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+      "author": "Victor Jansen",
+      "shortDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae dolores deserunt ea doloremque natus error, rerum quas odio quaerat nam ex commodi hic, suscipit in a veritatis pariatur minus consequuntur!",
+      "content": "A AXIS Design Tool ajuda a estimar a largura de banda e o armazenamentos necessários para seu projeto de vigilância. A estimativa é baseada em resolução de imagem, taxa de quatros, compactação, opções de gravação e o cenário da vigilância. / Cenários com muitos detalhes ou movimento exigirão mais largura de banda e armazenamento, comparados a cenários com menos detalhes ou movimento. Para começar, selecione uma câmera e um dos cenários de modelo pré-carregados, que permitem diferentes níveis de complexidade e movimento. Escolha o cenário que mais se aproxime de sua situação de vigilância. / Configurações de visualização e gravação são gerenciadas usando perfis. Escolha um dos perfis internos ou crie seu próprio perfil para que corresponda às necessidades de seu projeto. Para adicionar novos perfis ou editar configurações de perfil, clique no botão Profiles."
+    },
+    {
+      "id": 8,
+      "title": "Design System",
+      "image": "https://images.unsplash.com/photo-1648737119422-2680a7e39089?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=872&q=80",
+      "author": "Victor Jansen",
+      "shortDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae dolores deserunt ea doloremque natus error, rerum quas odio quaerat nam ex commodi hic, suscipit in a veritatis pariatur minus consequuntur!",
+      "content": "A AXIS Design Tool ajuda a estimar a largura de banda e o armazenamentos necessários para seu projeto de vigilância. A estimativa é baseada em resolução de imagem, taxa de quatros, compactação, opções de gravação e o cenário da vigilância. / Cenários com muitos detalhes ou movimento exigirão mais largura de banda e armazenamento, comparados a cenários com menos detalhes ou movimento. Para começar, selecione uma câmera e um dos cenários de modelo pré-carregados, que permitem diferentes níveis de complexidade e movimento. Escolha o cenário que mais se aproxime de sua situação de vigilância. / Configurações de visualização e gravação são gerenciadas usando perfis. Escolha um dos perfis internos ou crie seu próprio perfil para que corresponda às necessidades de seu projeto. Para adicionar novos perfis ou editar configurações de perfil, clique no botão Profiles."
+    },
+    {
+      "id": 9,
+      "title": "Angular JS",
+      "image": "https://images.unsplash.com/photo-1648737966274-79aa6f89c440?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+      "author": "Victor Jansen",
+      "shortDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae dolores deserunt ea doloremque natus error, rerum quas odio quaerat nam ex commodi hic, suscipit in a veritatis pariatur minus consequuntur!",
+      "content": "A AXIS Design Tool ajuda a estimar a largura de banda e o armazenamentos necessários para seu projeto de vigilância. A estimativa é baseada em resolução de imagem, taxa de quatros, compactação, opções de gravação e o cenário da vigilância. / Cenários com muitos detalhes ou movimento exigirão mais largura de banda e armazenamento, comparados a cenários com menos detalhes ou movimento. Para começar, selecione uma câmera e um dos cenários de modelo pré-carregados, que permitem diferentes níveis de complexidade e movimento. Escolha o cenário que mais se aproxime de sua situação de vigilância. / Configurações de visualização e gravação são gerenciadas usando perfis. Escolha um dos perfis internos ou crie seu próprio perfil para que corresponda às necessidades de seu projeto. Para adicionar novos perfis ou editar configurações de perfil, clique no botão Profiles."
+    },
+    {
+      "image": "https://res.cloudinary.com/dibnenfot/image/upload/v1655476136/Group_1_hupvqa.png",
+      "title": "aspjokdnaopsd",
+      "author": "dasdas",
+      "shortDescription": "saddsada",
+      "content": "dsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadads/ dsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadads/dsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadadsdsadads",
+      "id": 10
+    }
+  ],
+  "comments": [
+    {
+      "user": "Guilherme Cabral Ferreira Júnior",
+      "content": "Gostei do Conteúdo! Parabéns!",
+      "id": 4
+    },
+    {
+      "user": "Victor Jansen",
+      "content": "Pô, gostei do conteúdo!",
+      "id": 5
+    },
+    {
+      "user": "Victor Forattini",
+      "content": "Muito bom mano!",
+      "id": 6
+    },
+    {
+      "user": "oknokdffs",
+      "content": "fsdfdsf",
+      "id": 11
+    }
+  ],
+  "users": []
+}

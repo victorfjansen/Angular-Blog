@@ -1,0 +1,14 @@
+<a [routerLink]="['news-detail', id]" class="relative card">
+    <div class="max-w-sm h-60 py-4 px-8 bg-gray-800 shadow-lg rounded-lg my-10 card" colorUp>
+        <div class="flex justify-center md:justify-end -mt-16">
+          <img class="w-20 h-20 object-cover rounded-full border-2 border-indigo-500" [src]="image">
+        </div>
+        <div>
+          <h2 class="text-indigo-100 text-2xl font-semibold">{{title}}</h2>
+          <p class="mt-2 text-indigo-200 text-sm ">{{shortDescription}}</p>
+        </div>
+        <div class="flex justify-end mt-4 author">
+          <a class="text-md font-bold text-white">{{author}}</a>
+        </div>
+    </div>
+</a>

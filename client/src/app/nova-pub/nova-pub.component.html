@@ -1,0 +1,37 @@
+<section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 content">
+    <form class="mt-10" (submit)="handleSumbitCreatePub()" >
+        <div class="grid gap-6 mb-6">
+            <div>
+                <label for="title" class="block mb-2 text-sm font-medium text-gray-900">Título da publicação</label>
+                <input type="text" formControlName="title" id="title" class="border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" placeholder="Insira seu título aqui!" required>
+                <p>{{formControl.value.title}}</p>
+            </div>
+            <div>
+                <label for="author" class="block mb-2 text-sm font-medium text-gray-900">Nome do autor</label>
+                <input type="text" id="author" class="border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" placeholder="Seu nome talvez!" required>
+            </div>
+            <div>
+                <label for="shortDescription" class="block mb-2 text-sm font-medium text-gray-900">Descrição curta da sua publicação</label>
+                <input type="text" id="shortDescription" class="border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" placeholder="Pequena descrição" required>
+            </div>  
+            <div>
+                <label for="principal" class="block mb-2 text-sm font-medium text-gray-900">Texto principal da sua publicação</label>
+                <textarea type="text" id="principal" style="resize: none;" class="border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" placeholder="Texto principal" required></textarea>
+            </div>
+            <div>
+                <label for="image" class="block mb-2 text-sm font-medium text-gray-900">Url da imagem</label>
+                <input type="url" id="image" class="border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" placeholder="flowbite.com" required>
+            </div>
+            <div>
+                <h2 class="font-bold text-gray-900">Preview da imagem: <span class="font-normal text-sm text-gray-500">(coloque o link no campo acima para atualizar a imagem abaixo!)</span></h2>
+                <div class="px-0 py-6 w-full">
+                    <div class="border-4 border-dashed border-gray-200 rounded-lg h-96 w-7/12">
+                        <img [src]="formControl.value.image" class="image" alt="previewImage" lazy-loading/>
+                    </div>
+                </div>
+                
+            </div>
+            <button type="submit" class="text-white w-24 bg-indigo-900 hover:bg-yellow-500 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-md text-sm px-5 py-2.5 text-center duration-200">Enviar!</button>
+        </div>    
+    </form>
+</section>

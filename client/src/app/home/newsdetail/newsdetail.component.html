@@ -1,0 +1,48 @@
+<section class="content">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" *ngIf="newsInfo">
+        <h1 class="text-4xl md:text-5xl font-bold mt-20 text-indigo-500 border-b-2 leading-normal inline-block">Sobre o {{newsInfo.title}}</h1>
+        <article>
+            <p class="mt-10 text-indigo-800 leading-5 text-sm max-w-1x md:max-w-7x"> - {{newsInfo.shortDescription}}</p>
+            <p class="mt-7 text-indigo-900 text-sm -mb-5" *ngFor="let item of newsInfo.content.split('/')">{{item}}</p>
+        </article>
+        <div class="flex content-between mt-20 flex-col">
+            <img [src]="newsInfo.image" class="mb-10"/>
+            <div>
+                <h2 class="text-xl mb-10 font-bold text-indigo-900">Comentários:</h2>
+                <div class="-mt-4 border-t-2" *ngFor="let comment of comments">
+                    <div class="flex items-center comment">
+                        <div class="flex items-start justify-items-center space-x-4  w-auto h-12 px-4 py-4 border-solid border-indigo-400 mb-10">
+                            <img class="w-10 h-10 rounded-full" [src]="newsInfo.image" alt="">
+                            <div class=" font-medium">
+                                <p>{{comment.user}}</p>
+                                <div class="text-sm text-gray-500 dark:text-gray-400 leading-4">{{comment.content}}</div>
+                            </div>
+                        </div>
+                        <div class="flex items-center mr-6">
+                            <svg (click)="handleGetComment(comment.id!)" class="w-6 h-6 dark:text-white mr-1" fill="none" stroke="black" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4"></path></svg>
+                            <svg (click)="handleDeleteComment(comment.id!)" class="w-6 h-6 dark:text-white" fill="none" stroke="black" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 8h14M5 8a2 2 0 110-4h14a2 2 0 110 4M5 8v10a2 2 0 002 2h10a2 2 0 002-2V8m-9 4h4"></path></svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <h2 class="text-xl mt-5 mb-5 font-bold text-indigo-900">Adicionar novo comentário:</h2>
+                <form>
+                    <div class="grid gap-6 mb-6 lg:grid-row-2">
+                        <div>
+                            <label for="Name" class="block mb-1 text-sm font-medium text-indigo-900 ">Nome</label>
+                            <input type="text" id="Name" #nameInput [(ngModel)]="newComment.user" [ngModelOptions]="{standalone: true}" class=" border border-gray-600 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" placeholder="Coloque seu nome aqui!" required>
+                        </div>
+                        <div>
+                            <label for="last_name" class="block mb-2 text-sm font-medium text-indigo-900 ">Comentário</label>
+                            <input type="text" id="last_name" #content [(ngModel)]="newComment.content"  [ngModelOptions]="{standalone: true}" class=" border border-gray-600 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" placeholder="Escreva seu comentário aqui!" required>
+                        </div>
+                    </div>
+                    <button type="submit" *ngIf="atualizarState" (click)="handleUpdateComment()" class="text-white bg-indigo-900 hover:bg-yellow-500 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-md text-sm w-full sm:w-auto px-5 py-2.5 text-center duration-200">Atualizar!</button>
+                    <button type="submit" *ngElse="atualizarState" (click)="handleCreateComment()" class="text-white bg-indigo-900 hover:bg-yellow-500 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-md text-sm w-full sm:w-auto px-5 py-2.5 text-center duration-200">Enviar!</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <app-loading *ngElse="newsInfo !== undefined"></app-loading>
+</section>

@@ -1,0 +1,12 @@
+.comment {
+    width: 100%;
+    justify-content: space-between;
+}
+
+svg {
+    cursor: pointer;
+}
+
+svg:hover {
+    fill: #E53E3E;
+}

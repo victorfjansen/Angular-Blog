@@ -1,0 +1,16 @@
+.card {
+    cursor: pointer;
+    transition: linear .1s;
+    width: 385px;
+    position: relative;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.author {
+    position: absolute;
+    bottom: 20px;
+    right: 40px;
+}
